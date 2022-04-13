@@ -1,0 +1,27 @@
+{
+  "name": "mcp2221-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "esno ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.20.2",
+    "eslint": "^8.13.0",
+    "@types/ffi-napi": "^4.0.5",
+    "@types/ref": "^0.0.29",
+    "@types/ref-napi": "^3.0.4",
+    "esno": "^0.14.1"
+  },
+  "dependencies": {
+    "ffi-napi": "^4.0.3",
+    "picocolors": "^1.0.0",
+    "ref-napi": "^3.0.3",
+    "ref-wchar-napi": "^1.0.3"
+  }
+}
